@@ -1,0 +1,19 @@
+{
+  "PowerLineFrequency": 60,
+  "SoftwareFilters": {
+    "FilterDescription": {
+      "Description": "N\/A"
+    }
+  },
+  "EEGPlacementScheme": "10-10",
+  "EEGReference": "Left or right ear lobe",
+  "CapManufacturer": "Electro-Cap International, Inc.",
+  "TaskName": "motion",
+  "EEGChannelCount": 64,
+  "RecordingType": "continuous",
+  "RecordingDuration": 123,
+  "SamplingFrequency": 128,
+  "EOGChannelCount": 0,
+  "ECGChannelCount": 0,
+  "EMGChannelCount": 0
+}
