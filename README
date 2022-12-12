@@ -24,7 +24,7 @@ In summary, the experimental runs were:
     13. Task 3                                                                                                                                                                                                                                                                                                                 
     14. Task 4 
 
-Each event code includes an event type indicator (T0, T1, or T2) that is concatenated to the Task # it belongs with (i.e TASK1T2). The event type indicators change definition depending on the Task # it is associated with. For example, TASK1T2 would correspond to the onset of real motion in the right fist:
+Each event code includes an event type indicator (T0, T1, or T2) that is concatenated to the Task # it belongs with (i.e TASK1T2). The event type indicators change definition depending on the Task # it is associated with. For example, TASK1T2 would correspond to the onset of real motion in the right fist, while TASK3T2 would correspond to onset of real motion in both feet:
 
 **[T0]** corresponds to rest
 
