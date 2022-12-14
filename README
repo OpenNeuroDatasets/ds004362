@@ -1,3 +1,8 @@
+##Acknowledgements
+This data set was originally created and contributed to PhysioBank by Gerwin Schalk (schalk at wadsworth dot org) and his colleagues at the BCI R&D Program, Wadsworth Center, New York State Department of Health, Albany, NY. W.A. Sarnacki collected the data. Aditya Joshi compiled the dataset and prepared the documentation. D.J. McFarland and J.R. Wolpaw were responsible for experimental design and project oversight, respectively. This work was supported by grants from NIH/NIBIB ((EB006356 (GS) and EB00856 (JRW and GS)). 
+
+**To access the initial publication of this dataset, please visit this link to PhysioBank: https://physionet.org/content/eegmmidb/1.0.0/**
+
 ## Experiment Protocol
  This data set consists of over 1500 one- and two-minute EEG recordings, obtained from 109 volunteers, as described below.                                                                                                                                                                                                  
                                                                                                                                                                                                                                                                                                                            
@@ -42,6 +47,3 @@ Each event code includes an event type indicator (T0, T1, or T2) that is concate
 
 ## Montage
 The EEGs were recorded from 64 electrodes as per the international 10-10 system (excluding electrodes Nz, F9, F10, FT9, FT10, A1, A2, TP9, TP10, P9, and P10), as shown in the figure in the code folder. The numbers below each electrode name indicate the order in which they appear in the records; note that signals in the records are numbered from 0 to 63, while the numbers in the figure range from 1 to 64.
-
-##Acknowledgements
-This data set was originally created and contributed to PhysioBank by Gerwin Schalk (schalk at wadsworth dot org) and his colleagues at the BCI R&D Program, Wadsworth Center, New York State Department of Health, Albany, NY. W.A. Sarnacki collected the data. Aditya Joshi compiled the dataset and prepared the documentation. D.J. McFarland and J.R. Wolpaw were responsible for experimental design and project oversight, respectively. This work was supported by grants from NIH/NIBIB ((EB006356 (GS) and EB00856 (JRW and GS)). To access the initial publication of this dataset, please visit this link to PhysioBank: https://physionet.org/content/eegmmidb/1.0.0/
