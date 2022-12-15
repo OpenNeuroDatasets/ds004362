@@ -1,0 +1,65 @@
+{
+  "duration": {
+    "LongName": "Event duration",
+    "Description": "Duration of the event (measured from onset) in seconds",
+    "Units": "second"
+  },
+  "sample": {
+    "LongName": "Sample",
+    "Description": "Onset of the event according to the sampling scheme of the recorded modality"
+  },
+  "trial_type": {
+    "LongName": "Event categorization",
+    "Description": "Primary categorisation of each trial to identify them as instances of the experimental conditions."
+  },
+  "response_time": {
+    "LongName": "Response time",
+    "Description": "Response time measued in seconds.",
+    "Units": "second"
+  },
+  "stim_file": {
+    "LongName": "Stimulus file location",
+    "Description": "Represents the location of the stimulus file (image, video, sound etc.) presented at the given onset time. They should be stored in the \/stimuli folder (under the root folder of the dataset; with optional subfolders). The values under the stim_file column correspond to a path relative to \"\/stimuli\"."
+  },
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
+    "Units": "second"
+  },
+  "value": {
+    "LongName": "Event marker",
+    "Description": "Marker value associated with the event",
+    "Levels": {
+      "BASE1T0": "baseline (eyes open)",
+      "BASE2T0": "baseline (eyes closed)",
+      "TASK1T0": "Task 1 rest ",
+      "TASK1T1": "onset of the real motion of opening and closing the left fist when target appears on left side of screen",
+      "TASK1T2": "onset of the real motion of opening and closing the right fist when target appears on right side of screen",
+      "TASK2T0": "Task 2 rest",
+      "TASK2T1": "onset of the imagined motion of opening and closing the left fist when target appears on left side of screen",
+      "TASK2T2": "onset of the imagined motion of opening and closing the right fist when target appears on right side of screen",
+      "TASK3T0": "Task 3 rest",
+      "TASK3T1": "onset of the real motion of opening and closing both fists when target appears on the top side of screen",
+      "TASK3T2": "onset of the real motion of opening and closing both feet when target appears on the bottom side of screen",
+      "TASK4T0": "Task 4 rest",
+      "TASK4T1": "onset of the imagined motion of opening and closing both fists when target appears on the top side of screen",
+      "TASK4T2": "onset of the imagined motion of opening and closing both feet when target appears on the bottom side of screen"
+    },
+    "HED": {
+      "BASE1T0": "Agent-action,Experiment-participant,Eyes-open,Participant-response",
+      "BASE2T0": "Agent-action,Experiment-participant,Eyes-closed,Participant-response",
+      "TASK1T0": "Agent-action,Experiment-participant,Participant-response,Rest",
+      "TASK1T1": "(Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Participant-response",
+      "TASK1T2": "(Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Participant-response",
+      "TASK2T0": "Agent-action,Experiment-participant,Participant-response,Rest",
+      "TASK2T1": "(Close,Hand,(To-left-of,Torso)),(Open,Hand,(To-left-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response",
+      "TASK2T2": "(Close,Hand,(To-right-of,Torso)),(Open,Hand,(To-right-of,Torso)),Agent-action,Experiment-participant,Imagined-action,Participant-response",
+      "TASK3T0": "Agent-action,Experiment-participant,Participant-response,Rest",
+      "TASK3T1": "((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response",
+      "TASK3T2": "((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Participant-response",
+      "TASK4T0": "Agent-action,Experiment-participant,Participant-response,Rest",
+      "TASK4T1": "((Open,Hand,(To-left-of,Torso)),(Close,Hand,(To-left-of,Torso))),((Open,Hand,(To-right-of,Torso)),(Close,Hand,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response",
+      "TASK4T2": "((Open,Toes,(To-left-of,Torso)),(Close,Toes,(To-left-of,Torso))),((Open,Toes,(To-right-of,Torso)),(Close,Toes,(To-right-of,Torso))),Agent-action,Experiment-participant,Imagined-action,Participant-response"
+    }
+  }
+}
