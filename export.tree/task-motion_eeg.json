@@ -1,9 +1,0 @@
-{
-  "TaskDescription": "Cue-based motor execution and imagery. Targets appear on screen (left/right: open/close corresponding fist; top: open/close both fists; bottom: open/close both feet) until disappearance, then rest. Two 1-min baselines (eyes open/closed) plus three 2-min runs each of: executed unilateral fist (TASK1), imagined unilateral fist (TASK2), executed bilateral fists/feet (TASK3), imagined bilateral fists/feet (TASK4).",
-  "Instructions": "Open/close the cued effector(s) while the target is on screen (executed runs) or imagine doing so (imagined runs); relax when the target disappears.",
-  "InstitutionName": "Wadsworth Center, New York State Department of Health",
-  "StimulusPresentation": {
-    "SoftwareName": "BCI2000"
-  },
-  "Description": "64-channel BCI2000 EEG, converted from PhysioNet eegmmidb EDFs to EEGLAB .set (embedded data). Per-run sidecars carry SamplingFrequency (160 Hz; sub-088 task runs 128 Hz) and RecordingDuration."
-}
