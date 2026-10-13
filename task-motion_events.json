@@ -1,30 +1,18 @@
 {
+  "Description": "Per-run event markers. Baselines (R01/R02): single BASE1T0/BASE2T0 marker at onset. Task runs (R03-R14): alternating rest (TASKnT0) and cue markers (TASKnT1/TASKnT2); n = 1 executed left/right fist, 2 imagined left/right fist, 3 executed both-fists/both-feet, 4 imagined both-fists/both-feet.",
+  "onset": {
+    "LongName": "Event onset",
+    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
+    "Units": "s"
+  },
   "duration": {
     "LongName": "Event duration",
     "Description": "Duration of the event (measured from onset) in seconds",
-    "Units": "second"
+    "Units": "s"
   },
   "sample": {
     "LongName": "Sample",
     "Description": "Onset of the event according to the sampling scheme of the recorded modality"
-  },
-  "trial_type": {
-    "LongName": "Event categorization",
-    "Description": "Primary categorisation of each trial to identify them as instances of the experimental conditions."
-  },
-  "response_time": {
-    "LongName": "Response time",
-    "Description": "Response time measued in seconds.",
-    "Units": "second"
-  },
-  "stim_file": {
-    "LongName": "Stimulus file location",
-    "Description": "Represents the location of the stimulus file (image, video, sound etc.) presented at the given onset time. They should be stored in the \/stimuli folder (under the root folder of the dataset; with optional subfolders). The values under the stim_file column correspond to a path relative to \"\/stimuli\"."
-  },
-  "onset": {
-    "LongName": "Event onset",
-    "Description": "Onset (in seconds) of the event measured from the beginning of the acquisition of the first volume in the corresponding task imaging data file",
-    "Units": "second"
   },
   "value": {
     "LongName": "Event marker",

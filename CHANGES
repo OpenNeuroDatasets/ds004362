@@ -1,2 +1,4 @@
+1.0.1 2026-10-13
+	- Metadata-only curation (no signal changes): participants.tsv sub-044 fix; task events sidecar units/columns; channels type/units fill (EEG/uV); per-subject coordsystem/electrodes consolidation; added task-motion_eeg.json, GeneratedBy, SourceDatasets, descriptions. Sample validator proof: 15 errors -> 0.
 1.0.0 2022-12-15
   - Initial release on OpenNeuro
