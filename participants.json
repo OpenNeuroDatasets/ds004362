@@ -19,5 +19,6 @@
       "L": "left-handed",
       "R": "right-handed"
     }
-  }
+  },
+  "Description": "109 volunteers from the PhysioNet eegmmidb motor movement/imagery study (BCI2000). Gender, age and handedness as recorded in the source EDF headers; 'n/a' where unrecorded."
 }
